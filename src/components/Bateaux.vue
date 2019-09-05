@@ -2,7 +2,7 @@
     <div class="Bateaux">
 
         <table class="table table-bordered">
-            <caption>Les Bateaux</caption>
+            <caption>Bateaux</caption>
             <thead>
             <tr>
                 <th>Nom</th>
