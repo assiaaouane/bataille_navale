@@ -1,18 +1,33 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+    <img alt="logo" src="./assets/logo2.png">
+<!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
+
+    <div class="container" >
+      <plateau > </plateau>
+    </div>
+
+   <div class = "sidebar"  >
+     <Bateaux></Bateaux>
+   </div>
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import Plateau from "./components/Plateau";
+import Bateaux from "./components/Bateaux";
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    // HelloWorld ,
+    Plateau,
+    Bateaux
   }
+
 }
 </script>
 
@@ -22,7 +37,18 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #607386;
   margin-top: 60px;
 }
+
+  /*.container{*/
+
+  /*  display: flex;*/
+  /*    flex-grow: 1;*/
+
+  /*}*/
+  /*  .sidebar{*/
+
+  /*      flex-grow: 1;*/
+  /*  }*/
 </style>
